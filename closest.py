@@ -5,7 +5,7 @@ def get_distance(pair1, pair2):
     x1, y1 = pair1
     x2, y2 = pair2
     
-    return (sqrt((x1 - x2)**2) + sqrt((y1 - y2)**2))
+    return sqrt((x1 - x2)**2 + (y1 - y2)**2)
 
 if "__main__" == __name__:
     pairs = [(0,0),(-2,1),(3,0),(4,-1),(-25,32)]
